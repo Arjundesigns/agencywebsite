@@ -1054,6 +1054,10 @@ section:not(.hero):first-of-type { padding-top: 100px; }
     flex-shrink: 0;
 }
 
+.logo-wrapper img.square-logo {
+    transform: scale(1.35);
+}
+
 @keyframes scrollLogos {
     from { transform: translateX(0); }
     to { transform: translateX(-50%); }
