@@ -1052,12 +1052,6 @@ section:not(.hero):first-of-type { padding-top: 100px; }
     height: auto;
     object-fit: contain;
     flex-shrink: 0;
-    filter: grayscale(1) opacity(0.85);
-    transition: all 0.3s ease;
-}
-
-.logo-wrapper:hover img {
-    filter: grayscale(0) opacity(1);
 }
 
 @keyframes scrollLogos {
