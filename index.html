@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ktwo Creative</title>
+    <meta name="description" content="Ktwo Creative - Premium design and video editing agency.">
+    <!-- Preconnect for external domains to save DNS lookup time -->
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="preconnect" href="https://unpkg.com">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Site Loader -->
+    <div id="site-loader" class="site-loader">
+        <div class="loader-content">
+            <div class="loader-logo">K.</div>
+            <div class="loader-progress">
+                <div class="loader-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cursor-glow"></div>
+    <header class="navbar">
+        <div class="logo">Ktwo Creative.</div>
+        <nav>
+            <a href="index.html#work">Work</a>
+            <a href="index.html#services">Services</a>
+            <a href="index.html#contact" class="btn btn-primary">Speak to Me</a>
+        </nav>
+        <button class="mobile-menu-btn">☰</button>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+
+            <!-- Floating Mockups — hero images load eagerly with high priority -->
+            <div class="hero-mockups">
+                <div class="hero-mockup mockup-1 hidden-animate delay-2">
+                    <img src="Design Works/100G-MOCKUP-FOR-WEBSITE.webp" alt="Design Work" fetchpriority="high">
+                </div>
+                <div class="hero-mockup mockup-2 hidden-animate delay-3">
+                    <img src="Design Works/EdSpark-Poster.webp" alt="Design Work" fetchpriority="high">
+                </div>
+                <div class="hero-mockup mockup-3 hidden-animate delay-1">
+                    <img src="Design Works/POSTER 02.webp" alt="Design Work" fetchpriority="high">
+                </div>
+                <div class="hero-mockup mockup-4 hidden-animate delay-4">
+                    <img src="Design Works/PRODUCT PHOTO.webp" alt="Design Work" fetchpriority="high">
+                </div>
+                <div class="hero-mockup mockup-5 hidden-animate delay-2">
+                    <img src="Design Works/TRANSPARENT-MOCKUP-03.webp" alt="Design Work" fetchpriority="high">
+                </div>
+            </div>
+
+            <div class="hero-content">
+                <div class="hero-social-proof hidden-animate delay-1">
+                    <div class="hero-badge">
+                        <span>4 Years of Design, Content &amp; Growth</span>
+                    </div>
+                </div>
+                
+                <h1 class="hero-title hidden-animate delay-2">
+                    We don't just design.<br>
+                    <span class="gradient-text hero-highlight">We make people notice.</span>
+                </h1>
+                <p class="hero-subtitle hidden-animate delay-3">Design, content, and video that move business.</p>
+                
+                <div class="hero-cta hidden-animate delay-4">
+                    <a href="#work" class="btn btn-primary btn-large">See Our Work</a>
+                    <a href="#services" class="btn btn-secondary btn-large">Our Expertise</a>
+                </div>
+            </div>
+            <div class="hero-bg-glow"></div>
+        </section>
+
+        <!-- Client Logos & Social Proof Bar -->
+        <div class="social-proof-bar hidden-animate">
+            <div class="proof-left">
+                <div class="avatar-group">
+                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80" alt="Client" class="avatar" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=100&q=80" alt="Client" class="avatar" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&q=80" alt="Client" class="avatar" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80" alt="Client" class="avatar" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=100&q=80" alt="Client" class="avatar" loading="lazy">
+                </div>
+                <div class="proof-text">
+                    <div class="stars">★★★★★</div>
+                    <span>99+ Happy clients</span>
+                </div>
+            </div>
+
+            <!-- CSS Marquee for Logos -->
+            <div class="logo-marquee">
+                <div class="marquee-track">
+                    <div class="marquee-logos">
+                        <img src="Client Logos/02.webp" alt="Client Logo" loading="lazy">
+                        <img src="Client Logos/3.webp" alt="Client Logo" loading="lazy">
+                        <img src="Client Logos/All-logos01-1.webp" alt="Client Logo" loading="lazy">
+                        <img src="Client Logos/EDEX BLACK.webp" alt="Client Logo" loading="lazy">
+                        <img src="Client Logos/JBIS-FinAcademy-Official-Logo-(White).webp" alt="Client Logo" loading="lazy">
+                        <img src="Client Logos/LOGO-02.webp" alt="Client Logo" loading="lazy">
+                        <img src="Client Logos/LOGO-PORTABLE-SPACES.webp" alt="Client Logo" loading="lazy">
+                        <img src="Client Logos/Vector Smart Object1.webp" alt="Client Logo" loading="lazy">
+                    </div>
+                    <!-- Duplicate for infinite scroll -->
+                    <div class="marquee-logos" aria-hidden="true">
+                        <img src="Client Logos/02.webp" alt="Client Logo" loading="lazy">
+                        <img src="Client Logos/3.webp" alt="Client Logo" loading="lazy">
+                        <img src="Client Logos/All-logos01-1.webp" alt="Client Logo" loading="lazy">
+                        <img src="Client Logos/EDEX BLACK.webp" alt="Client Logo" loading="lazy">
+                        <img src="Client Logos/JBIS-FinAcademy-Official-Logo-(White).webp" alt="Client Logo" loading="lazy">
+                        <img src="Client Logos/LOGO-02.webp" alt="Client Logo" loading="lazy">
+                        <img src="Client Logos/LOGO-PORTABLE-SPACES.webp" alt="Client Logo" loading="lazy">
+                        <img src="Client Logos/Vector Smart Object1.webp" alt="Client Logo" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="work" class="work-section">
+            <div class="section-header hidden-animate">
+                <h2>Featured Projects</h2>
+                <div class="work-tabs">
+                    <button class="tab-btn active" data-filter="design">Design Works</button>
+                    <button class="tab-btn" data-filter="video">Video Edits</button>
+                    <button class="tab-btn" data-filter="ai">AI Commercials</button>
+                </div>
+                <!-- Gallery Sub-Filter -->
+                <div class="sorting-filter" id="gallery-sorting-filter">
+                    <button class="sort-btn active" data-sort="all">All</button>
+                    <button class="sort-btn" data-sort="posters">Posters</button>
+                    <button class="sort-btn" data-sort="packaging">Package Design</button>
+                    <button class="sort-btn" data-sort="thumbnails">Thumbnails</button>
+                </div>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Design Projects -->
+                <!-- Posters -->
+                <div class="project-card bento-item lightbox-trigger" data-category="design" data-category-sort="posters" data-img="Design Works/POSTER01.webp">
+                    <img src="Design Works/POSTER01.webp" alt="Poster 01" loading="lazy">
+                </div>
+                <div class="project-card bento-item lightbox-trigger" data-category="design" data-category-sort="posters" data-img="Design Works/POSTER 02.webp">
+                    <img src="Design Works/POSTER 02.webp" alt="Poster 02" loading="lazy">
+                </div>
+                <div class="project-card bento-item lightbox-trigger" data-category="design" data-category-sort="posters" data-img="Design Works/POSTER 03.webp">
+                    <img src="Design Works/POSTER 03.webp" alt="Poster 03" loading="lazy">
+                </div>
+                <div class="project-card bento-item lightbox-trigger" data-category="design" data-category-sort="posters" data-img="Design Works/Artboard 1.webp">
+                    <img src="Design Works/Artboard 1.webp" alt="Artboard 1" loading="lazy">
+                </div>
+                <div class="project-card bento-item lightbox-trigger" data-category="design" data-category-sort="posters" data-img="Design Works/EID POSTER.webp">
+                    <img src="Design Works/EID POSTER.webp" alt="Eid Poster" loading="lazy">
+                </div>
+                <div class="project-card bento-item lightbox-trigger" data-category="design" data-category-sort="posters" data-img="Design Works/WEBINAR copy.webp">
+                    <img src="Design Works/WEBINAR copy.webp" alt="Webinar Poster" loading="lazy">
+                </div>
+                <div class="project-card bento-item lightbox-trigger" data-category="design" data-category-sort="posters" data-img="Design Works/ticketlive-poster1.webp">
+                    <img src="Design Works/ticketlive-poster1.webp" alt="TicketLive Poster 1" loading="lazy">
+                </div>
+                <div class="project-card bento-item lightbox-trigger" data-category="design" data-category-sort="posters" data-img="Design Works/ticketlive-poster2.webp">
+                    <img src="Design Works/ticketlive-poster2.webp" alt="TicketLive Poster 2" loading="lazy">
+                </div>
+                <div class="project-card bento-item lightbox-trigger" data-category="design" data-category-sort="posters" data-img="Design Works/EdSpark-Poster.webp">
+                    <img src="Design Works/EdSpark-Poster.webp" alt="EdSpark Poster" loading="lazy">
+                </div>
+                <div class="project-card bento-item lightbox-trigger" data-category="design" data-category-sort="posters" data-img="Design Works/FULLSTACK DEV HIRING POSTER.webp">
+                    <img src="Design Works/FULLSTACK DEV HIRING POSTER.webp" alt="Hiring Poster" loading="lazy">
+                </div>
+                <div class="project-card bento-item lightbox-trigger" data-category="design" data-category-sort="posters" data-img="Design Works/SEMINAR POSTER.webp">
+                    <img src="Design Works/SEMINAR POSTER.webp" alt="Seminar Poster" loading="lazy">
+                </div>
+                <div class="project-card bento-item lightbox-trigger" data-category="design" data-category-sort="posters" data-img="Design Works/SIP RAIN POSTER.webp">
+                    <img src="Design Works/SIP RAIN POSTER.webp" alt="SIP Rain Poster" loading="lazy">
+                </div>
+
+                <!-- Thumbnails -->
+                <div class="project-card bento-item lightbox-trigger" data-category="design" data-category-sort="thumbnails" data-img="Design Works/SW FB COVER.webp">
+                    <img src="Design Works/SW FB COVER.webp" alt="FB Cover" loading="lazy">
+                </div>
+                <div class="project-card bento-item lightbox-trigger" data-category="design" data-category-sort="thumbnails" data-img="Design Works/THUMBNAIL 02 05.webp">
+                    <img src="Design Works/THUMBNAIL 02 05.webp" alt="Thumbnail 02" loading="lazy">
+                </div>
+                <div class="project-card bento-item lightbox-trigger" data-category="design" data-category-sort="thumbnails" data-img="Design Works/THUMBNAIL 12.webp">
+                    <img src="Design Works/THUMBNAIL 12.webp" alt="Thumbnail 12" loading="lazy">
+                </div>
+                <div class="project-card bento-item lightbox-trigger" data-category="design" data-category-sort="thumbnails" data-img="Design Works/THUMBNAIL-05.webp">
+                    <img src="Design Works/THUMBNAIL-05.webp" alt="Thumbnail 05" loading="lazy">
+                </div>
+
+                <!-- Packaging -->
+                <div class="project-card bento-item lightbox-trigger" data-category="design" data-category-sort="packaging" data-img="Design Works/100G-MOCKUP-FOR-WEBSITE.webp">
+                    <img src="Design Works/100G-MOCKUP-FOR-WEBSITE.webp" alt="100g Mockup" loading="lazy">
+                </div>
+                <div class="project-card bento-item lightbox-trigger" data-category="design" data-category-sort="packaging" data-img="Design Works/300G-MOCKUP-FOR-WEBSITE.webp">
+                    <img src="Design Works/300G-MOCKUP-FOR-WEBSITE.webp" alt="300g Mockup" loading="lazy">
+                </div>
+                <div class="project-card bento-item lightbox-trigger" data-category="design" data-category-sort="packaging" data-img="Design Works/TRANSPARENT-MOCKUP-03.webp">
+                    <img src="Design Works/TRANSPARENT-MOCKUP-03.webp" alt="Transparent Mockup" loading="lazy">
+                </div>
+                <div class="project-card bento-item lightbox-trigger" data-category="design" data-category-sort="packaging" data-img="Design Works/PRODUCT PHOTO.webp">
+                    <img src="Design Works/PRODUCT PHOTO.webp" alt="Product Photo" loading="lazy">
+                </div>
+
+                <!-- AI/3D Renders -->
+                <div class="project-card bento-item lightbox-trigger" data-category="design" data-category-sort="packaging" data-img="Design Works/3D-RENDER.webp">
+                    <img src="Design Works/3D-RENDER.webp" alt="3D Render" loading="lazy">
+                </div>
+                <div class="project-card bento-item lightbox-trigger" data-category="design" data-category-sort="packaging" data-img="Design Works/hf_20260131_141511_39be49d4-c0f5-405f-9498-2a5fc318be9a.webp">
+                    <img src="Design Works/hf_20260131_141511_39be49d4-c0f5-405f-9498-2a5fc318be9a.webp" alt="AI Generated" loading="lazy">
+                </div>
+                <div class="project-card bento-item lightbox-trigger" data-category="design" data-category-sort="packaging" data-img="Design Works/hf_20260131_141854_993290b7-6ab4-4de4-8587-d07f10ce76f0.webp">
+                    <img src="Design Works/hf_20260131_141854_993290b7-6ab4-4de4-8587-d07f10ce76f0.webp" alt="AI Generated" loading="lazy">
+                </div>
+                <div class="project-card bento-item lightbox-trigger" data-category="design" data-category-sort="packaging" data-img="Design Works/hf_20260131_141958_e7775762-b67d-4eaf-8e43-d39bd0859a2a.webp">
+                    <img src="Design Works/hf_20260131_141958_e7775762-b67d-4eaf-8e43-d39bd0859a2a.webp" alt="AI Generated" loading="lazy">
+                </div>
+                <div class="project-card bento-item lightbox-trigger" data-category="design" data-category-sort="packaging" data-img="Design Works/hf_20260131_142903_a193c79a-6446-411d-a983-743c04f36f6d.webp">
+                    <img src="Design Works/hf_20260131_142903_a193c79a-6446-411d-a983-743c04f36f6d.webp" alt="AI Generated" loading="lazy">
+                </div>
+
+                <!-- Video Projects — Google Drive embedded iframes, lazy loaded -->
+                <div class="project-card bento-item hidden-grid-item" data-category="video" style="background: transparent; border: none; box-shadow: none;">
+                    <iframe data-src="https://drive.google.com/file/d/1PZtozaG51v-NvLVlh-yg3yZzekrBrNG2/preview" style="width: 100%; aspect-ratio: 9/16; border: none; border-radius: 24px; display: block;" allow="autoplay" allowfullscreen></iframe>
+                </div>
+                <div class="project-card bento-item hidden-grid-item" data-category="video" style="background: transparent; border: none; box-shadow: none;">
+                    <iframe data-src="https://drive.google.com/file/d/1lVSW9xnSgaJJbCFmbOM9L6tVbO2ezJeg/preview" style="width: 100%; aspect-ratio: 9/16; border: none; border-radius: 24px; display: block;" allow="autoplay" allowfullscreen></iframe>
+                </div>
+                <div class="project-card bento-item hidden-grid-item" data-category="video" style="background: transparent; border: none; box-shadow: none;">
+                    <iframe data-src="https://drive.google.com/file/d/1Bu_fw8UeDASczU65AvoLoLJHCBf7JWwS/preview" style="width: 100%; aspect-ratio: 9/16; border: none; border-radius: 24px; display: block;" allow="autoplay" allowfullscreen></iframe>
+                </div>
+                <div class="project-card bento-item hidden-grid-item" data-category="video" style="background: transparent; border: none; box-shadow: none;">
+                    <iframe data-src="https://drive.google.com/file/d/1ZQ0BRDwr7IvNw67TW4IsZAWdaDeSpiSv/preview" style="width: 100%; aspect-ratio: 9/16; border: none; border-radius: 24px; display: block;" allow="autoplay" allowfullscreen></iframe>
+                </div>
+                <div class="project-card bento-item hidden-grid-item" data-category="video" style="background: transparent; border: none; box-shadow: none;">
+                    <iframe data-src="https://drive.google.com/file/d/1BoyEni9dXGJ0Nf5hvrYKlelN01kpavpG/preview" style="width: 100%; aspect-ratio: 9/16; border: none; border-radius: 24px; display: block;" allow="autoplay" allowfullscreen></iframe>
+                </div>
+
+                <!-- AI Commercials — Google Drive embedded iframes, lazy loaded -->
+                <div class="project-card bento-item hidden-grid-item" data-category="ai" style="background: transparent; border: none; box-shadow: none;">
+                    <iframe data-src="https://drive.google.com/file/d/1TAp5uUqFlIy23mDpjTGRMSrJFGHZeICA/preview" style="width: 100%; aspect-ratio: 9/16; border: none; border-radius: 24px; display: block;" allow="autoplay" allowfullscreen></iframe>
+                </div>
+                <div class="project-card bento-item hidden-grid-item" data-category="ai" style="background: transparent; border: none; box-shadow: none;">
+                    <iframe data-src="https://drive.google.com/file/d/1xHhpQOyADKuAqZZqdYFQ1AA9ad9xyD_E/preview" style="width: 100%; aspect-ratio: 9/16; border: none; border-radius: 24px; display: block;" allow="autoplay" allowfullscreen></iframe>
+                </div>
+                <div class="project-card bento-item hidden-grid-item" data-category="ai" style="background: transparent; border: none; box-shadow: none;">
+                    <iframe data-src="https://drive.google.com/file/d/1D3nUq9H8_ZWxHijoG2OvLqU2wpUwp-Kw/preview" style="width: 100%; aspect-ratio: 9/16; border: none; border-radius: 24px; display: block;" allow="autoplay" allowfullscreen></iframe>
+                </div>
+                <div class="project-card bento-item hidden-grid-item" data-category="ai" style="background: transparent; border: none; box-shadow: none;">
+                    <iframe data-src="https://drive.google.com/file/d/1G9leYSx-T8mSWS8rQPcX5bJb99Ig31lS/preview" style="width: 100%; aspect-ratio: 9/16; border: none; border-radius: 24px; display: block;" allow="autoplay" allowfullscreen></iframe>
+                </div>
+
+                <div id="show-more-container" style="display: none; text-align: center; margin-top: 40px; column-span: all; width: 100%;">
+                    <button id="show-more-btn" class="btn btn-secondary">Show More</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services-section">
+            <div class="services-container">
+                <div class="services-left hidden-animate delay-1">
+                    <h2 class="services-title">
+                        <span class="text-muted-large">Services that</span><br>
+                        supercharge your business.
+                    </h2>
+                    
+                    <div class="tech-stack">
+                        <p>Our creative toolkit</p>
+                        <div class="stack-icons">
+                            <div class="stack-icon icon-pr">Pr</div>
+                            <div class="stack-icon icon-ae">Ae</div>
+                            <div class="stack-icon icon-ps">Ps</div>
+                            <div class="stack-icon icon-ai">Ai</div>
+                            <div class="stack-icon icon-au">Au</div>
+                            <div class="stack-icon icon-fg">Fg</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="services-right hidden-animate delay-2">
+                    <ul class="services-list">
+                        <li>
+                            <div class="service-icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+                            </div>
+                            <span>Brand Identity</span>
+                        </li>
+                        <li>
+                            <div class="service-icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="4" ry="4"></rect><path d="M10 9l5 3-5 3z"></path></svg>
+                            </div>
+                            <span>YouTube Thumbnails</span>
+                        </li>
+                        <li>
+                            <div class="service-icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M19 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2z"></path><path d="M9 3v18"></path></svg>
+                            </div>
+                            <span>Social Media Posters</span>
+                        </li>
+                        <li>
+                            <div class="service-icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"></path></svg>
+                            </div>
+                            <span>Brochures &amp; Print</span>
+                        </li>
+                        <li>
+                            <div class="service-icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"></rect><line x1="7" y1="2" x2="7" y2="22"></line><line x1="17" y1="2" x2="17" y2="22"></line><line x1="2" y1="12" x2="22" y2="12"></line><line x1="2" y1="7" x2="7" y2="7"></line><line x1="2" y1="17" x2="7" y2="17"></line><line x1="17" y1="17" x2="22" y2="17"></line><line x1="17" y1="7" x2="22" y2="7"></line></svg>
+                            </div>
+                            <span>Reel Editing</span>
+                        </li>
+                        <li>
+                            <div class="service-icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M12 1a3 3 0 00-3 3v8a3 3 0 006 0V4a3 3 0 00-3-3z"></path><path d="M19 10v2a7 7 0 01-14 0v-2"></path><line x1="12" y1="19" x2="12" y2="23"></line><line x1="8" y1="23" x2="16" y2="23"></line></svg>
+                            </div>
+                            <span>Podcast Editing</span>
+                        </li>
+                        <li>
+                            <div class="service-icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                            </div>
+                            <span>Motion Graphics</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="testimonials" class="testimonials-section">
+            <div class="section-header hidden-animate">
+                <h2>Client Love</h2>
+                <p>Don't just take our word for it—see what our partners have to say.</p>
+            </div>
+            
+            <div class="marquee-container">
+                <div class="marquee-content">
+                    <div class="marquee-group">
+                        <a href="https://share.google/W0C6h2r2gQfQwPkKA" target="_blank" rel="noopener noreferrer" class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <div class="review-text">"We were looking for someone who could understand our brand style and deliver quality designs without delay. That's when we came across Ktwo Digital Services, and from our very first project itself, the experience has been excellent."</div>
+                            <div class="review-author"><strong>JBIS Group</strong></div>
+                        </a>
+                        <a href="https://share.google/W0C6h2r2gQfQwPkKA" target="_blank" rel="noopener noreferrer" class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <div class="review-text">"We've been working with this editor for HPE Talks videos and reels, and the results have been excellent. The edits are clean, professional, and perfectly match our brand style. They understand how to make health-focused content engaging."</div>
+                            <div class="review-author"><strong>Harold Paul</strong></div>
+                        </a>
+                        <a href="https://share.google/W0C6h2r2gQfQwPkKA" target="_blank" rel="noopener noreferrer" class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <div class="review-text">"Big thanks to Ktwo Dzins for designing my chips packet! The work was simply amazing 🔥 He really nailed it with creativity and quality. Highly recommend his designs—keep it up brother, you did a fantastic job! 🙌"</div>
+                            <div class="review-author"><strong>Akshay</strong></div>
+                        </a>
+                        <a href="https://share.google/W0C6h2r2gQfQwPkKA" target="_blank" rel="noopener noreferrer" class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <div class="review-text">"We recently got our company visiting card designed here. The design was creative and matched our requirements well. Overall, a very good experience"</div>
+                            <div class="review-author"><strong>MOHAMMED SANFEER K</strong></div>
+                        </a>
+                        <a href="https://share.google/W0C6h2r2gQfQwPkKA" target="_blank" rel="noopener noreferrer" class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <div class="review-text">"Collaborated with them for my clients, great design, professional approach, on time delivery highly recommended"</div>
+                            <div class="review-author"><strong>Harigovind g</strong></div>
+                        </a>
+                        <a href="https://share.google/W0C6h2r2gQfQwPkKA" target="_blank" rel="noopener noreferrer" class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <div class="review-text">"100% professional 🤩 currently I am giving my 2 companies all design works to arjun thank you very much keep going 💝"</div>
+                            <div class="review-author"><strong>Orbators Ventures</strong></div>
+                        </a>
+                        <a href="https://share.google/W0C6h2r2gQfQwPkKA" target="_blank" rel="noopener noreferrer" class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <div class="review-text">"Great experience working with him, well experienced creator🔥"</div>
+                            <div class="review-author"><strong>Rameez M</strong></div>
+                        </a>
+                        <a href="https://share.google/W0C6h2r2gQfQwPkKA" target="_blank" rel="noopener noreferrer" class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <div class="review-text">"100% satisfied with the work!🙌✨"</div>
+                            <div class="review-author"><strong>George Chacko Itty</strong></div>
+                        </a>
+                        <a href="https://share.google/W0C6h2r2gQfQwPkKA" target="_blank" rel="noopener noreferrer" class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <div class="review-text">"Worth for the price"</div>
+                            <div class="review-author"><strong>Krxna</strong></div>
+                        </a>
+                    </div>
+                    <div class="marquee-group" aria-hidden="true">
+                        <a href="https://share.google/W0C6h2r2gQfQwPkKA" target="_blank" rel="noopener noreferrer" class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <div class="review-text">"We were looking for someone who could understand our brand style and deliver quality designs without delay. That's when we came across Ktwo Digital Services, and from our very first project itself, the experience has been excellent."</div>
+                            <div class="review-author"><strong>JBIS Group</strong></div>
+                        </a>
+                        <a href="https://share.google/W0C6h2r2gQfQwPkKA" target="_blank" rel="noopener noreferrer" class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <div class="review-text">"We've been working with this editor for HPE Talks videos and reels, and the results have been excellent. The edits are clean, professional, and perfectly match our brand style. They understand how to make health-focused content engaging."</div>
+                            <div class="review-author"><strong>Harold Paul</strong></div>
+                        </a>
+                        <a href="https://share.google/W0C6h2r2gQfQwPkKA" target="_blank" rel="noopener noreferrer" class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <div class="review-text">"Big thanks to Ktwo Dzins for designing my chips packet! The work was simply amazing 🔥 He really nailed it with creativity and quality. Highly recommend his designs—keep it up brother, you did a fantastic job! 🙌"</div>
+                            <div class="review-author"><strong>Akshay</strong></div>
+                        </a>
+                        <a href="https://share.google/W0C6h2r2gQfQwPkKA" target="_blank" rel="noopener noreferrer" class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <div class="review-text">"We recently got our company visiting card designed here. The design was creative and matched our requirements well. Overall, a very good experience"</div>
+                            <div class="review-author"><strong>MOHAMMED SANFEER K</strong></div>
+                        </a>
+                        <a href="https://share.google/W0C6h2r2gQfQwPkKA" target="_blank" rel="noopener noreferrer" class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <div class="review-text">"Collaborated with them for my clients, great design, professional approach, on time delivery highly recommended"</div>
+                            <div class="review-author"><strong>Harigovind g</strong></div>
+                        </a>
+                        <a href="https://share.google/W0C6h2r2gQfQwPkKA" target="_blank" rel="noopener noreferrer" class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <div class="review-text">"100% professional 🤩 currently I am giving my 2 companies all design works to arjun thank you very much keep going 💝"</div>
+                            <div class="review-author"><strong>Orbators Ventures</strong></div>
+                        </a>
+                        <a href="https://share.google/W0C6h2r2gQfQwPkKA" target="_blank" rel="noopener noreferrer" class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <div class="review-text">"Great experience working with him, well experienced creator🔥"</div>
+                            <div class="review-author"><strong>Rameez M</strong></div>
+                        </a>
+                        <a href="https://share.google/W0C6h2r2gQfQwPkKA" target="_blank" rel="noopener noreferrer" class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <div class="review-text">"100% satisfied with the work!🙌✨"</div>
+                            <div class="review-author"><strong>George Chacko Itty</strong></div>
+                        </a>
+                        <a href="https://share.google/W0C6h2r2gQfQwPkKA" target="_blank" rel="noopener noreferrer" class="review-card">
+                            <div class="stars">★★★★★</div>
+                            <div class="review-text">"Worth for the price"</div>
+                            <div class="review-author"><strong>Krxna</strong></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="cta-section">
+            <div class="cta-content glass-panel hidden-animate">
+                <h2>Ready to create something amazing?</h2>
+                <p>Let's collaborate on your next big project.</p>
+                <button class="btn btn-primary btn-large cta-btn-hover">Speak to Me</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-top">
+            <div class="footer-brand">
+                <h2>Ktwo Creative</h2>
+                <p>Premium Design &amp; Video Agency</p>
+            </div>
+            <div class="footer-links">
+                <a href="#">Instagram</a>
+                <a href="#">Dribbble</a>
+                <a href="#">Behance</a>
+                <a href="#">Vimeo</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Ktwo Creative. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Contact Modal -->
+    <div id="contact-modal" class="modal-overlay">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-header">
+                <h2>Request a quote</h2>
+                <p>Fill out the form below or <a href="https://cal.com/k2-designs-1odybz/30min" target="_blank" rel="noopener noreferrer">book a call</a>.</p>
+                <div class="modal-profile">
+                    <div class="profile-pic">K2</div>
+                    <div class="profile-info">
+                        <strong>Ktwo Creative</strong>
+                        <span>connectwithk2d@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+            <div data-fs-success class="form-success-msg" hidden style="text-align: center; padding: 40px 0; color: #111;">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--accent-1)" stroke-width="2" style="margin-bottom: 24px;"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                <h3 style="font-size: 1.8rem; margin-bottom: 12px; font-weight: 500;">Message Sent!</h3>
+                <p style="color: var(--text-muted); font-size: 1rem;">Thanks for reaching out! We will get back to you shortly.</p>
+            </div>
+            <div data-fs-error class="form-error-msg" hidden style="color: #e11d48; margin-bottom: 16px; font-weight: 500; font-size: 0.9rem;"></div>
+
+            <form id="quote-form" class="modal-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Name" data-fs-field>
+                        <span data-fs-error="name" class="fs-inline-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="Email" data-fs-field>
+                        <span data-fs-error="email" class="fs-inline-error"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Phone Number" data-fs-field>
+                    <span data-fs-error="phone" class="fs-inline-error"></span>
+                </div>
+                <div class="form-group">
+                    <label for="message">Send a message or describe your project</label>
+                    <textarea id="message" name="message" rows="4" required placeholder="Project details..." data-fs-field></textarea>
+                    <span data-fs-error="message" class="fs-inline-error"></span>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full" style="width: 100%;" data-fs-submit-btn>Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Sticky Contact Widget -->
+    <div class="sticky-widget">
+        <div class="widget-text">
+            <span class="widget-title">Speak to me</span>
+            <span class="widget-subtitle">Email or book a call</span>
+        </div>
+        <div class="widget-actions">
+            <a href="mailto:connectwithk2d@gmail.com" class="widget-btn widget-btn-black">
+                <svg class="widget-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                <span class="widget-btn-text">Contact</span>
+            </a>
+            <a href="https://cal.com/k2-designs-1odybz/30min" target="_blank" rel="noopener noreferrer" class="widget-btn widget-btn-white">
+                <svg class="widget-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM11.31 16.5l-3.34-3.35 1.41-1.41 1.93 1.92 4.14-4.14 1.41 1.42-5.55 5.56z"/></svg>
+                <span class="widget-btn-text">Book a call</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img id="lightbox-img" src="" alt="Expanded View">
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+      window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+      formspree('initForm', { formElement: '#quote-form', formId: 'xjgpavrn' });
+    </script>
+    <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+# macOS system files
+.DS_Store
+
+# Local large video directories (streamed from Google Drive instead)
+VIDEO EDITS/
+AI COMMERCIALS/
