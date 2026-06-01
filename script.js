@@ -209,15 +209,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const quoteForm = document.getElementById('quote-form');
 
     if (contactModal) {
-        document.querySelectorAll('a[href*="#contact"]').forEach(el => {
-            el.addEventListener('click', (e) => {
-                if (el.getAttribute('href') !== 'https://cal.com/k2-designs-1odybz/30min') {
-                    e.preventDefault();
-                    contactModal.classList.add('active');
-                }
-            });
-        });
-
         modalClose.addEventListener('click', () => {
             contactModal.classList.remove('active');
         });

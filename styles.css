@@ -1297,6 +1297,87 @@ section:not(.hero):first-of-type { padding-top: 100px; }
 .cta-content p { font-size: 1.15rem; color: var(--text-muted); font-weight: 300; }
 .cta-btn-hover { margin-top: 12px; }
 
+/* Contact Details Cards in CTA */
+.cta-contact-details {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    max-width: 640px;
+    margin: 16px 0;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cta-contact-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 18px 24px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid var(--border-subtle);
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+    flex: 1;
+    min-width: 260px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.01);
+}
+
+.cta-contact-card:hover {
+    transform: translateY(-4px);
+    background: rgba(255, 255, 255, 0.95);
+    border-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.05);
+}
+
+.cta-card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 46px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #f472b6 0%, #fb923c 100%);
+    color: #fff;
+    flex-shrink: 0;
+    box-shadow: 0 6px 16px rgba(244, 114, 182, 0.25);
+}
+
+.cta-card-icon svg {
+    width: 20px;
+    height: 20px;
+}
+
+.cta-card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.cta-card-info span {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.cta-card-info strong {
+    font-size: 1.05rem;
+    color: var(--text-main);
+    font-weight: 500;
+    word-break: break-all;
+}
+
+.cta-cal-booking {
+    margin-top: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 /* Footer */
 footer {
     padding: 80px 5% 40px;
@@ -1477,6 +1558,16 @@ footer {
     .testimonial-card { padding: 24px; width: 280px; min-width: 280px; margin-right: -16px; border-radius: 16px; }
     .testimonial-text { font-size: 1.05rem; margin-bottom: 24px; }
     .client-avatar { width: 48px; height: 48px; }
+
+    .cta-contact-details {
+        flex-direction: column;
+        gap: 16px;
+    }
+    
+    .cta-contact-card {
+        width: 100%;
+        min-width: 100%;
+    }
 
     .footer-top { flex-direction: column; align-items: flex-start; }
     .footer-links { flex-wrap: wrap; }
