@@ -221,6 +221,37 @@ document.addEventListener('DOMContentLoaded', () => {
 
     }
 
+    // 6. Mobile Menu Logic
+    const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+    const navbarElement = document.querySelector('.navbar');
+
+    if (mobileMenuBtn && navbarElement) {
+        mobileMenuBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            navbarElement.classList.toggle('mobile-active');
+            if (navbarElement.classList.contains('mobile-active')) {
+                mobileMenuBtn.innerHTML = '✕';
+            } else {
+                mobileMenuBtn.innerHTML = '☰';
+            }
+        });
+
+        // Close menu when clicking a link
+        navbarElement.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                navbarElement.classList.remove('mobile-active');
+                mobileMenuBtn.innerHTML = '☰';
+            });
+        });
+
+        // Close menu when clicking outside navbar
+        document.addEventListener('click', (e) => {
+            if (!navbarElement.contains(e.target) && navbarElement.classList.contains('mobile-active')) {
+                navbarElement.classList.remove('mobile-active');
+                mobileMenuBtn.innerHTML = '☰';
+            }
+        });
+    }
 
     // Initial Gallery Render
     renderGallery();
