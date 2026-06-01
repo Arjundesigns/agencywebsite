@@ -1026,7 +1026,7 @@ section:not(.hero):first-of-type { padding-top: 100px; }
 .marquee-track {
     display: flex;
     width: max-content;
-    animation: scrollLogos 45s linear infinite;
+    animation: scrollLogos 22s linear infinite;
 }
 
 .marquee-logos {
